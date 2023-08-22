@@ -35,7 +35,7 @@ public class SphereFollowMouse : MonoBehaviour
         {
             isGrabbing = true;
             privateSmoothSpeed = smoothSpeed;
-            smoothSpeed = smoothSpeed/3;
+            smoothSpeed = smoothSpeed/5;
         }
 
         if (Input.GetMouseButtonUp(0))

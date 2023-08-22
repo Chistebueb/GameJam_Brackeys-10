@@ -39,7 +39,7 @@ public class FollowObjectWithOffset : MonoBehaviour
             if (isFollowing)
             {
                 Vector3 targetPosition = referenceObject.transform.position + initialOffset;
-                objectToFollow.transform.position = Vector3.Lerp(objectToFollow.transform.position, targetPosition, Time.deltaTime * 5f);
+                objectToFollow.transform.position = Vector3.Lerp(objectToFollow.transform.position, targetPosition, Time.deltaTime * 50f);
             }
         }
         else

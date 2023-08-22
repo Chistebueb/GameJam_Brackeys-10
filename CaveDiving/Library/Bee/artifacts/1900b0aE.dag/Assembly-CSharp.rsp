@@ -395,6 +395,7 @@
 "Assets/FollowObject.cs"
 "Assets/FollowObjectWithOffset.cs"
 "Assets/HideMouse.cs"
+"Assets/LookAtObject.cs"
 "Assets/MainMenu.cs"
 "Assets/MouseHoverTransparency.cs"
 "Assets/SphereFollowMouse.cs"
