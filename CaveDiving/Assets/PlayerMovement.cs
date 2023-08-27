@@ -50,6 +50,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void LateUpdate()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         if (cameraControlEnabled)
         {
             // Player movement

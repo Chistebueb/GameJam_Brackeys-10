@@ -6,7 +6,7 @@ public class ActivateObject1 : MonoBehaviour
 {
     public GameObject GameObjectOn;
 
-    public void Activate()
+    public void Activate2()
     {
         GameObjectOn.SetActive(true);
     }
