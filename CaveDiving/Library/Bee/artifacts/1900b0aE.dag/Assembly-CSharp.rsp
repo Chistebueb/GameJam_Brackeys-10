@@ -408,6 +408,7 @@
 "Assets/MouseHoverTransparency.cs"
 "Assets/PlayerInteraction.cs"
 "Assets/PlayerMovement.cs"
+"Assets/SceneEnd.cs"
 "Assets/SphereFollowMouse.cs"
 "Assets/SphereMovement.cs"
 -langversion:9.0
